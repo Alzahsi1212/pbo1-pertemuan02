@@ -4,5 +4,6 @@ public class InputOutput{
     String nama;
     System.out.print("Masukkan nama kamu : ");
     nama = scanner.nextLine();
+    System.out.println("Halo, "+nama);
   }
 }
